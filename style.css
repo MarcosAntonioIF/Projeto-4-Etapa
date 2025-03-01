@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #FEF9E1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    color: #6D2323;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#introducao, #jogos, #youtube, #cursos, #creditos {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+#Título2 {
+    color: #FFFFFF;
+    margin-top: 20px;
+    background-color: #A31D1D;
+    border: solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#pre {
+    color: #6D2323;
+    border: solid #A31D1D;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D2323;
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: 5px solid #cbcbcb;
+}
+
+.favicon img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.scrollmenu {
+    background-color: #A31D1D;
+    overflow: auto;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: #FEF9E1;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.scrollmenu a:active {
+    background-color: #cbcbcb;
+}
+
+#introducao pre {
+    color: #6D2323;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding: 15px;
+    background-color: #E5D0AC;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#jogo p {
+    text-align: justify;
+    color: #E5D0AC; 
+}
+
+.games {
+    overflow: hidden;
+    margin-bottom: 30px;
+    text-align: justify;
+    color: #E5D0AC;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+#tabela {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#nomescursos {
+    max-width: 800px;
+    padding: 25px;
+    background-color: #E5D0AC;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+#nomecursos h2,
+#introducao h2,
+#jogo h2,
+#creditos h2,
+#youtube h2 {
+    color: #E5D0AC;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nomecursos pre {
+    white-space: normal;
+    text-align: justify;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #FEF9E1;
+}
+
+#nomecursos em,
+#introducao em {
+    color: #007BFF;
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#youtube iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+#jogo {
+    padding: 80px;
+    background-color: #6D2323;
+    border-radius: 15px;
+}
+
+#introducao {
+    background-color: #FEF9E1;
+    padding: 1px;
+    margin-top: 1px;
+    border-radius: 15px;
+}
+
+#nomescursos {
+    background-color: #E5D0AC; 
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#creditos {
+    background-color: #FEF9E1;
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+#todo {
+    font-family: Candara;
+    font-size: 16px;
+    color: #6D2323;
+}
+
